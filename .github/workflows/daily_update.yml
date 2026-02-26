@@ -2,7 +2,7 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '30 20 * * *' # Runs daily at 20:30 UTC
+    - cron: '0 0 1 * *' # Runs daily at 20:30 UTC
   workflow_dispatch: # Allows manual trigger
 
 jobs:
